@@ -1,11 +1,16 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.button-style {
+    padding: 2px;
 }
 #wrapper {
     width: 90vh;
     height: 95vh;
+    margin-bottom: 20px;
 }
 .div-container {
     display: flex;
