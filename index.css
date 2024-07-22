@@ -1,14 +1,20 @@
-#container {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width: 570px;
-    height: 570px;
+}
+#wrapper {
+    width: 90vh;
+    height: 95vh;
+}
+.div-container {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
 }
 .div-grid{
     background-color: white;
-    border: 2px solid black;
-    width: 30px;
-    height: 30px;
+    border: 1px solid black;
+    margin: 0px;
+    pad: 0px;
 }
